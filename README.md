@@ -15,7 +15,6 @@ UserController :
           }
       This api is used to register a user (In response server returns a jwtToken)
 
-
       /api/user/login , method : PostMapping ,
       body:
           {
