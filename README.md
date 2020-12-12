@@ -23,7 +23,6 @@ UserController :
           }
       This api is used for user login (In response server returns a jwtToken)
       
-                      ###########################################################################################################
 
 BookController :
       api : localhost:8080/api/book/not-reserved , method : GetMapping
@@ -34,7 +33,6 @@ BookController :
       param : send Pageable object and BookCriteria object
       In this api, the search is done according to the fields entered in the bookCriteria
       
-                     #############################################################################################################
                      
  ReservationController :
       api : localhost:8080/api/reservation , method : GetMapping
